@@ -5,9 +5,3 @@ Ext.Class.registerPreprocessor('mvchelper',
         }
     }, true);
 Ext.Class.setDefaultPreprocessorPosition('mvchelper', 'first');
-
-
-
-
-
-
