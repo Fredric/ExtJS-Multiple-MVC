@@ -660,11 +660,6 @@
                     "path": "../../../src/state/"
                 },
                 {
-                    "clsName": "Ext.state.LocalStorageProvider",
-                    "name": "LocalStorageProvider.js",
-                    "path": "../../../src/state/"
-                },
-                {
                     "clsName": "Ext.state.Manager",
                     "name": "Manager.js",
                     "path": "../../../src/state/"
@@ -705,13 +700,13 @@
                     "path": "../../../src/"
                 },
                 {
-                    "clsName": "Ext.ModelManager",
-                    "name": "ModelManager.js",
+                    "clsName": "Ext.PluginManager",
+                    "name": "PluginManager.js",
                     "path": "../../../src/"
                 },
                 {
-                    "clsName": "Ext.PluginManager",
-                    "name": "PluginManager.js",
+                    "clsName": "Ext.ModelManager",
+                    "name": "ModelManager.js",
                     "path": "../../../src/"
                 },
                 {
@@ -935,6 +930,11 @@
                     "path": "../../../src/chart/"
                 },
                 {
+                    "clsName": "Ext.chart.TipSurface",
+                    "name": "TipSurface.js",
+                    "path": "../../../src/chart/"
+                },
+                {
                     "clsName": "Ext.chart.axis.Abstract",
                     "name": "Abstract.js",
                     "path": "../../../src/chart/axis/"
@@ -948,11 +948,6 @@
                     "clsName": "Ext.chart.axis.Category",
                     "name": "Category.js",
                     "path": "../../../src/chart/axis/"
-                },
-                {
-                    "clsName": "Ext.chart.TipSurface",
-                    "name": "TipSurface.js",
-                    "path": "../../../src/chart/"
                 },
                 {
                     "clsName": "Ext.chart.axis.Gauge",
@@ -1385,6 +1380,11 @@
                     "path": "../../../src/grid/"
                 },
                 {
+                    "clsName": "Ext.layout.container.Form",
+                    "name": "Form.js",
+                    "path": "../../../src/layout/container/"
+                },
+                {
                     "clsName": "Ext.layout.container.Fit",
                     "name": "Fit.js",
                     "path": "../../../src/layout/container/"
@@ -1392,11 +1392,6 @@
                 {
                     "clsName": "Ext.layout.container.Card",
                     "name": "Card.js",
-                    "path": "../../../src/layout/container/"
-                },
-                {
-                    "clsName": "Ext.layout.container.Form",
-                    "name": "Form.js",
                     "path": "../../../src/layout/container/"
                 },
                 {
@@ -1480,13 +1475,13 @@
                     "path": "../../../src/form/field/"
                 },
                 {
-                    "clsName": "Ext.resizer.BorderSplitterTracker",
-                    "name": "BorderSplitterTracker.js",
+                    "clsName": "Ext.resizer.Handle",
+                    "name": "Handle.js",
                     "path": "../../../src/resizer/"
                 },
                 {
-                    "clsName": "Ext.resizer.Handle",
-                    "name": "Handle.js",
+                    "clsName": "Ext.resizer.BorderSplitterTracker",
+                    "name": "BorderSplitterTracker.js",
                     "path": "../../../src/resizer/"
                 },
                 {
@@ -1930,18 +1925,23 @@
                     "path": "../../../src/grid/plugin/"
                 },
                 {
+                    "clsName": "Ext.state.LocalStorageProvider",
+                    "name": "LocalStorageProvider.js",
+                    "path": "../../../src/state/"
+                },
+                {
                     "clsName": "Portal.view.Viewport",
                     "name": "Viewport.js",
                     "path": "app/view/"
                 },
                 {
-                    "clsName": "Portal.controller.Main",
-                    "name": "Main.js",
+                    "clsName": "Portal.controller.MVCLoader",
+                    "name": "MVCLoader.js",
                     "path": "app/controller/"
                 },
                 {
-                    "clsName": "Portal.controller.MVCLoader",
-                    "name": "MVCLoader.js",
+                    "clsName": "Portal.controller.Main",
+                    "name": "Main.js",
                     "path": "app/controller/"
                 },
                 {
@@ -1950,14 +1950,14 @@
                     "path": "../Portlets/Stocks/app/view/"
                 },
                 {
-                    "clsName": "Portal.lib.panel.Portlet",
-                    "name": "Portlet.js",
-                    "path": "app/lib/panel/"
-                },
-                {
                     "clsName": "Portal.lib.dd.DropZone",
                     "name": "DropZone.js",
                     "path": "app/lib/dd/"
+                },
+                {
+                    "clsName": "Portal.lib.panel.Portlet",
+                    "name": "Portlet.js",
+                    "path": "app/lib/panel/"
                 },
                 {
                     "clsName": "Companies.model.Company",
@@ -1978,21 +1978,6 @@
                     "clsName": "Companies.view.Grid",
                     "name": "Grid.js",
                     "path": "../Portlets/Companies/app/view/"
-                },
-                {
-                    "clsName": "Companies.view.Grid2",
-                    "name": "Grid2.js",
-                    "path": "../Portlets/Companies/app/view/"
-                },
-                {
-                    "clsName": "Companies.store.Companies",
-                    "name": "Companies.js",
-                    "path": "../Portlets/Companies/app/store/"
-                },
-                {
-                    "clsName": "Companies.controller.Main",
-                    "name": "Main.js",
-                    "path": "../Portlets/Companies/app/controller/"
                 }
             ]
         },
