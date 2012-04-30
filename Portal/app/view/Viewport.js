@@ -90,6 +90,13 @@ Ext.define('Portal.view.Viewport', {
                                             title:'Portlet 3',
                                             tools:this.getTools(),
                                             html:'<div class="portlet-content">' + Ext.example.bogusMarkup + '</div>'
+                                        },
+                                        {
+                                            id:'portlet-5',
+                                            title:'Company',
+                                            tools:this.getTools(),
+                                            items:Ext.create('Company.view.Form')
+
                                         }
                                     ]
                                 },

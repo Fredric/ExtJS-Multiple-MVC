@@ -40,6 +40,8 @@ Ext.define('Companies.view.Grid', {
         });
         this.callParent(arguments);
 
+
+
     },
     /**
      * Custom function used for column renderer

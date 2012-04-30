@@ -17,8 +17,11 @@ Ext.define('Companies.controller.Main', {
             }
         });
     },
-    onCompanySelect:function () {
+    onCompanySelect:function (view, record) {
         Ext.example.msg('Companies.controller.Main', 'Company clicked');
+        this.getCompanyGrid().fireEvent('onCompanySelected',record);
+
+
     },
     onAfterRender:function () {
         Ext.example.msg('Companies.controller.Main', 'Company Portlet is rendered');
