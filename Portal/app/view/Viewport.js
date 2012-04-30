@@ -5,7 +5,7 @@
  */
 Ext.define('Portal.view.Viewport', {
     extend:'Ext.container.Viewport',
-    uses:['Portal.lib.panel.Columns', 'Portal.lib.container.Column','Stocks.view.Chart','Companies.view.Grid'],
+    requires:['Portal.lib.panel.Columns', 'Portal.lib.container.Column'],
 
     initComponent:function () {
         var content = '<div class="portlet-content">' + Ext.example.shortBogusMarkup + '</div>';
@@ -100,7 +100,9 @@ Ext.define('Portal.view.Viewport', {
                                             id:'portlet-4',
                                             title:'Stock Portlet',
                                             tools:this.getTools(),
-                                            items:[{xtype:'stockchartportlet'}]
+                                            items:Ext.create('Stocks.view.Chart')
+
+                                            //items:[{xtype:'stockchartportlet'}]
 
                                         }
                                     ]

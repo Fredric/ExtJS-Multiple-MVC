@@ -2,7 +2,7 @@ Ext.define('Stocks.view.Chart', {
 
     extend: 'Ext.panel.Panel',
     alias: 'widget.stockchartportlet',
-
+    controllers:['Stocks.controller.StocksController'],
     requires: [
         'Ext.data.JsonStore',
         'Ext.chart.theme.Base',

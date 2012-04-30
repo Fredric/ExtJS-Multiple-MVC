@@ -8,12 +8,12 @@ Ext.define('Companies.controller.Main', {
             selector:'gridportlet'
         }
     ],
-
     init:function () {
         this.control({
             'gridportlet':{
-                itemclick:this.onCompanySelect,
-                afterrender:this.onAfterRender
+                itemclick   :this.onCompanySelect,
+                afterrender :this.onAfterRender,
+                beforerender:this.onBeforeRender
             }
         });
     },
@@ -22,5 +22,8 @@ Ext.define('Companies.controller.Main', {
     },
     onAfterRender:function () {
         Ext.example.msg('Companies.controller.Main', 'Company Portlet is rendered');
+    },
+    onBeforeRender:function () {
+        Ext.example.msg('Companies.controller.Main', 'Company Portlet will render');
     }
 });
