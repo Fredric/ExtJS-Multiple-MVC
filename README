@@ -1,1 +1,21 @@
-Hello WOrld!
+ExtJS-Multiple-MVC
+
+The included code is ment to be cloned into the examples folder of ExtJS. 
+
+!! Dont create a subfolder. Just be in the examples folder and clone from there !!
+
+The files that you need to copy to make your own application multi mvc is:
+
+Portal/MVCHelper.js
+Portal/app/controller/MVCLoader.js
+
+Load MVCHelper.js before your app.js in your index.html
+
+Use MVCLoader as a controller in your main app. You want to change the class name to fit your app name. It will be as any other controller in your app.
+
+Tell loader where your sub applications are. Look in Portal/app.js for guidance.
+
+/Fredric Berling
+
+@FredricBerling
+
