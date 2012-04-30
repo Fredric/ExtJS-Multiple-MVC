@@ -69,13 +69,11 @@ Ext.define('Portal.view.Viewport', {
                                     id:'col-1',
                                     items:[
                                         {
-                                            id:'portlet-1',
                                             title:'Grid Portlet',
                                             tools:this.getTools(),
                                             items:Ext.create('Companies.view.Grid')
                                         },
                                         {
-                                            id:'portlet-2',
                                             title:'Portlet 2',
                                             tools:this.getTools(),
                                             html:content
@@ -86,13 +84,10 @@ Ext.define('Portal.view.Viewport', {
                                     id:'col-2',
                                     items:[
                                         {
-                                            id:'portlet-3',
-                                            title:'Portlet 3',
                                             tools:this.getTools(),
                                             html:'<div class="portlet-content">' + Ext.example.bogusMarkup + '</div>'
                                         },
                                         {
-                                            id:'portlet-5',
                                             title:'Company',
                                             tools:this.getTools(),
                                             items:Ext.create('Company.view.Form')
@@ -104,12 +99,10 @@ Ext.define('Portal.view.Viewport', {
                                     id:'col-3',
                                     items:[
                                         {
-                                            id:'portlet-4',
                                             title:'Stock Portlet',
                                             tools:this.getTools(),
                                             items:Ext.create('Stocks.view.Chart')
-
-                                            //items:[{xtype:'stockchartportlet'}]
+                                              //items:[{xtype:'stockchartportlet'}]
 
                                         }
                                     ]
