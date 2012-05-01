@@ -14,11 +14,7 @@ Ext.define('Portal.controller.PortletCommunicationsSample', {
             }
         });
     },
-
-    updateCompanyPortlet:function(companyRecord){
-
-        this.getCompanyPortlet().loadRecord(companyRecord);
-
+    updateCompanyPortlet:function(grid, company){
+        this.getCompanyPortlet().setCompany(company);
     }
 });
-

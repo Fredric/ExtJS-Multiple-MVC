@@ -3,14 +3,17 @@
  * This makes it possible to make any renderable component to load controllers without the need for an Ext.Application.
  *
  */
+
 Ext.define('Portal.controller.MVCLoader', {
     extend:'Ext.app.Controller',
     init:function () {
+
         var me = this;
         me.addedClasses = Ext.create('Ext.util.MixedCollection');
 
         Ext.iterate(Ext.ClassManager.classes, function (key, value) {
             if (Ext.isArray(value.controllers)) {
+
                 me.mvloadExternalControllers(value.controllers);
             }
         }, this);
