@@ -1,9 +1,9 @@
 /**
- * @class Portal.lib.panel.Portlet
+ * @class Portal.view.Portlet
  * @extends Ext.panel.Panel
- * A {@link Ext.panel.Panel Panel} class that is managed by {@link Portal.lib.panel.Columns}.
+ * A {@link Ext.panel.Panel Panel} class that is managed by {@link Portal.view.Columns}.
  */
-Ext.define('Portal.lib.panel.Portlet', {
+Ext.define('Portal.view.Portlet', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.portlet',
     layout: 'fit',

@@ -15,11 +15,6 @@
                     "path": "../../../src/"
                 },
                 {
-                    "clsName": "Ext.ComponentQuery",
-                    "name": "ComponentQuery.js",
-                    "path": "../../../src/"
-                },
-                {
                     "clsName": "Ext.Template",
                     "name": "Template.js",
                     "path": "../../../src/"
@@ -35,14 +30,19 @@
                     "path": "../../../src/chart/"
                 },
                 {
+                    "clsName": "Ext.chart.Navigation",
+                    "name": "Navigation.js",
+                    "path": "../../../src/chart/"
+                },
+                {
                     "clsName": "Ext.chart.Shape",
                     "name": "Shape.js",
                     "path": "../../../src/chart/"
                 },
                 {
-                    "clsName": "Ext.chart.Navigation",
-                    "name": "Navigation.js",
-                    "path": "../../../src/chart/"
+                    "clsName": "Ext.ComponentQuery",
+                    "name": "ComponentQuery.js",
+                    "path": "../../../src/"
                 },
                 {
                     "clsName": "Ext.data.IdGenerator",
@@ -955,6 +955,11 @@
                     "path": "../../../src/chart/axis/"
                 },
                 {
+                    "clsName": "Ext.chart.axis.Numeric",
+                    "name": "Numeric.js",
+                    "path": "../../../src/chart/axis/"
+                },
+                {
                     "clsName": "Ext.chart.axis.Gauge",
                     "name": "Gauge.js",
                     "path": "../../../src/chart/axis/"
@@ -962,11 +967,6 @@
                 {
                     "clsName": "Ext.chart.axis.Radial",
                     "name": "Radial.js",
-                    "path": "../../../src/chart/axis/"
-                },
-                {
-                    "clsName": "Ext.chart.axis.Numeric",
-                    "name": "Numeric.js",
                     "path": "../../../src/chart/axis/"
                 },
                 {
@@ -1177,11 +1177,6 @@
                 {
                     "clsName": "Ext.layout.component.Button",
                     "name": "Button.js",
-                    "path": "../../../src/layout/component/"
-                },
-                {
-                    "clsName": "Ext.layout.component.Dock",
-                    "name": "Dock.js",
                     "path": "../../../src/layout/component/"
                 },
                 {
@@ -1525,6 +1520,11 @@
                     "path": "../../../src/selection/"
                 },
                 {
+                    "clsName": "Ext.layout.component.Dock",
+                    "name": "Dock.js",
+                    "path": "../../../src/layout/component/"
+                },
+                {
                     "clsName": "Ext.tab.Tab",
                     "name": "Tab.js",
                     "path": "../../../src/tab/"
@@ -1865,6 +1865,36 @@
                     "path": "../../../src/form/field/"
                 },
                 {
+                    "clsName": "Ext.window.Window",
+                    "name": "Window.js",
+                    "path": "../../../src/window/"
+                },
+                {
+                    "clsName": "Ext.window.MessageBox",
+                    "name": "MessageBox.js",
+                    "path": "../../../src/window/"
+                },
+                {
+                    "clsName": "Ext.form.Basic",
+                    "name": "Basic.js",
+                    "path": "../../../src/form/"
+                },
+                {
+                    "clsName": "Ext.form.Panel",
+                    "name": "Panel.js",
+                    "path": "../../../src/form/"
+                },
+                {
+                    "clsName": "Ext.grid.RowEditor",
+                    "name": "RowEditor.js",
+                    "path": "../../../src/grid/"
+                },
+                {
+                    "clsName": "Ext.grid.plugin.RowEditing",
+                    "name": "RowEditing.js",
+                    "path": "../../../src/grid/plugin/"
+                },
+                {
                     "clsName": "Ext.view.Table",
                     "name": "Table.js",
                     "path": "../../../src/view/"
@@ -1900,36 +1930,6 @@
                     "path": "../../../src/tree/"
                 },
                 {
-                    "clsName": "Ext.window.Window",
-                    "name": "Window.js",
-                    "path": "../../../src/window/"
-                },
-                {
-                    "clsName": "Ext.window.MessageBox",
-                    "name": "MessageBox.js",
-                    "path": "../../../src/window/"
-                },
-                {
-                    "clsName": "Ext.form.Basic",
-                    "name": "Basic.js",
-                    "path": "../../../src/form/"
-                },
-                {
-                    "clsName": "Ext.form.Panel",
-                    "name": "Panel.js",
-                    "path": "../../../src/form/"
-                },
-                {
-                    "clsName": "Ext.grid.RowEditor",
-                    "name": "RowEditor.js",
-                    "path": "../../../src/grid/"
-                },
-                {
-                    "clsName": "Ext.grid.plugin.RowEditing",
-                    "name": "RowEditing.js",
-                    "path": "../../../src/grid/plugin/"
-                },
-                {
                     "clsName": "Portal.controller.MVCLoader",
                     "name": "MVCLoader.js",
                     "path": "app/controller/"
@@ -1945,24 +1945,9 @@
                     "path": "app/controller/"
                 },
                 {
-                    "clsName": "Stocks.view.Chart",
-                    "name": "Chart.js",
-                    "path": "../Portlets/Stocks/app/view/"
-                },
-                {
-                    "clsName": "Company.view.Form",
-                    "name": "Form.js",
-                    "path": "../Portlets/Company/app/view/"
-                },
-                {
-                    "clsName": "Portal.lib.panel.Portlet",
+                    "clsName": "Portal.view.Portlet",
                     "name": "Portlet.js",
-                    "path": "app/lib/panel/"
-                },
-                {
-                    "clsName": "Portal.lib.dd.DropZone",
-                    "name": "DropZone.js",
-                    "path": "app/lib/dd/"
+                    "path": "app/view/"
                 },
                 {
                     "clsName": "Companies.model.Company",
@@ -1970,14 +1955,29 @@
                     "path": "../Portlets/Companies/app/model/"
                 },
                 {
-                    "clsName": "Portal.lib.container.Column",
-                    "name": "Column.js",
-                    "path": "app/lib/container/"
+                    "clsName": "Stocks.view.Chart",
+                    "name": "Chart.js",
+                    "path": "../Portlets/Stocks/app/view/"
                 },
                 {
-                    "clsName": "Portal.lib.panel.Columns",
+                    "clsName": "Portal.view.DropZone",
+                    "name": "DropZone.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "Company.view.Form",
+                    "name": "Form.js",
+                    "path": "../Portlets/Company/app/view/"
+                },
+                {
+                    "clsName": "Portal.view.Column",
+                    "name": "Column.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "Portal.view.Columns",
                     "name": "Columns.js",
-                    "path": "app/lib/panel/"
+                    "path": "app/view/"
                 },
                 {
                     "clsName": "Companies.view.Grid",

@@ -1,15 +1,15 @@
 /**
- * @class Portal.lib.container.Column
+ * @class Portal.view.Column
  * @extends Ext.container.Container
- * A layout column class used internally be {@link Portal.lib.panel.Columns}.
+ * A layout column class used internally be {@link Portal.view.Columns}.
  */
-Ext.define('Portal.lib.container.Column', {
+Ext.define('Portal.view.Column', {
     extend: 'Ext.container.Container',
     alias: 'widget.portalcolumn',
 
     requires: [
         'Ext.layout.container.Anchor',
-        'Portal.lib.panel.Portlet'
+        'Portal.view.Portlet'
     ],
 
     layout: 'anchor',

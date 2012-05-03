@@ -1,7 +1,7 @@
 Ext.define('Companies.controller.Main', {
     extend:'Ext.app.Controller',
     stores:['Companies.store.Companies'],
-    views:['Grid'],
+    views:['Companies.view.Grid'],
     refs:[
         {
             ref:'companyGrid',
@@ -11,12 +11,11 @@ Ext.define('Companies.controller.Main', {
     init:function () {
         this.control({
             'gridportlet':{
-                itemclick   :this.onCompanySelect
+                onCompanySelected   :this.showSelectedMessage
             }
         });
     },
-    onCompanySelect:function (view, record) {
+    showSelectedMessage:function (gridInstance, record) {
         Ext.example.msg('Companies.controller.Main', 'Company Selected');
-        this.getCompanyGrid().fireEvent('onCompanySelected',record);
     }
 });

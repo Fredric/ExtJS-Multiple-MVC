@@ -5,7 +5,7 @@
  */
 Ext.define('Portal.view.Viewport', {
     extend:'Ext.container.Viewport',
-    requires:['Portal.lib.panel.Columns', 'Portal.lib.container.Column', 'Companies.view.Grid', 'Stocks.view.Chart', 'Company.view.Form'],
+    requires:['Portal.view.Columns', 'Portal.view.Column', 'Companies.view.Grid', 'Stocks.view.Chart', 'Company.view.Form'],
 
     initComponent:function () {
         var content = '<div class="portlet-content">' + Ext.example.shortBogusMarkup + '</div>';

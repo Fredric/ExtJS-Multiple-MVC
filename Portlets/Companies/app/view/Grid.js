@@ -1,5 +1,6 @@
 Ext.define('Companies.view.Grid', {
     extend:'Ext.grid.Panel',
+
     alias:'widget.gridportlet',
     controllers:['Companies.controller.Main'],
     requires:[
@@ -9,8 +10,16 @@ Ext.define('Companies.view.Grid', {
     height:300,
     store:'Companies.store.Companies',
 
-    initComponent:function () {
+    config:{
+        company:null
+    },
+    applyCompany:function(company){
+        this.getSelectionModel().select(company, false, true);
+        this.fireEvent('onCompanySelected',this, company);
+        return company;
+    },
 
+    initComponent:function () {
         Ext.apply(this, {
             height:this.height,
             stripeRows:true,
@@ -40,6 +49,9 @@ Ext.define('Companies.view.Grid', {
         });
         this.callParent(arguments);
 
+        this.on('itemclick',function(view,record){
+                this.setCompany(record);
+        },this);
 
 
     },

@@ -1,15 +1,15 @@
 /**
- * @class Portal.lib.dd.DropZone
+ * @class Portal.view.DropZone
  * @extends Ext.dd.DropTarget
- * Internal class that manages drag/drop for {@link Portal.lib.panel.Columns}.
+ * Internal class that manages drag/drop for {@link Portal.view.Columns}.
  */
-Ext.define('Portal.lib.dd.DropZone', {
+Ext.define('Portal.view.DropZone', {
     extend: 'Ext.dd.DropTarget',
 
     constructor: function(portal, cfg) {
         this.portal = portal;
         Ext.dd.ScrollManager.register(portal.body);
-        Portal.lib.dd.DropZone.superclass.constructor.call(this, portal.body, cfg);
+        Portal.view.DropZone.superclass.constructor.call(this, portal.body, cfg);
         portal.body.ddScrollConfig = this.ddScrollConfig;
     },
 
@@ -190,6 +190,6 @@ Ext.define('Portal.lib.dd.DropZone', {
     // unregister the dropzone from ScrollManager
     unreg: function() {
         Ext.dd.ScrollManager.unregister(this.portal.body);
-        Portal.lib.dd.DropZone.superclass.unreg.call(this);
+        Portal.view.DropZone.superclass.unreg.call(this);
     }
 });

@@ -1,17 +1,17 @@
 /**
- * @class Portal.lib.panel.Columns
+ * @class Portal.view.Columns
  * @extends Ext.panel.Panel
  * A {@link Ext.panel.Panel Panel} class used for providing drag-drop-enabled portal layouts.
  */
-Ext.define('Portal.lib.panel.Columns', {
+Ext.define('Portal.view.Columns', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.portalpanel',
 
     requires: [
         'Ext.layout.container.Column',
 
-        'Portal.lib.dd.DropZone',
-        'Portal.lib.container.Column'
+        'Portal.view.DropZone',
+        'Portal.view.Column'
     ],
 
     cls: 'x-portal',
@@ -72,7 +72,7 @@ Ext.define('Portal.lib.panel.Columns', {
     // private
     initEvents : function(){
         this.callParent();
-        this.dd = Ext.create('Portal.lib.dd.DropZone', this, this.dropConfig);
+        this.dd = Ext.create('Portal.view.DropZone', this, this.dropConfig);
     },
 
     // private
