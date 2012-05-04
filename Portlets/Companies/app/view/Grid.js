@@ -11,7 +11,7 @@ Ext.define('Companies.view.Grid', {
     store:'Companies.store.Companies',
 
     config:{
-        company:null
+        company:null //Creates setters and getters
     },
     applyCompany:function(company){
         this.getSelectionModel().select(company, false, true);

@@ -15,7 +15,7 @@ Ext.define('Companies.controller.Main', {
             }
         });
     },
-    showSelectedMessage:function (gridInstance, record) {
+    showSelectedMessage:function () {
         Ext.example.msg('Companies.controller.Main', 'Company Selected');
     }
 });

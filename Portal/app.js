@@ -5,6 +5,7 @@ Ext.Loader.setPath('Company', '../Portlets/Company/app');
 
 Ext.require([
     'Ext.*'
+
 /*
     ,'Companies.controller.Main'
     ,'Stocks.controller.StocksController'
