@@ -780,13 +780,13 @@
                     "path": "../../../src/data/"
                 },
                 {
-                    "clsName": "Ext.data.ArrayStore",
-                    "name": "ArrayStore.js",
+                    "clsName": "Ext.data.BufferStore",
+                    "name": "BufferStore.js",
                     "path": "../../../src/data/"
                 },
                 {
-                    "clsName": "Ext.data.BufferStore",
-                    "name": "BufferStore.js",
+                    "clsName": "Ext.data.ArrayStore",
+                    "name": "ArrayStore.js",
                     "path": "../../../src/data/"
                 },
                 {
@@ -1730,28 +1730,18 @@
                     "path": "../../../src/chart/series/"
                 },
                 {
-                    "clsName": "Ext.chart.series.Area",
-                    "name": "Area.js",
-                    "path": "../../../src/chart/series/"
-                },
-                {
                     "clsName": "Ext.chart.series.Bar",
                     "name": "Bar.js",
                     "path": "../../../src/chart/series/"
                 },
                 {
+                    "clsName": "Ext.chart.series.Area",
+                    "name": "Area.js",
+                    "path": "../../../src/chart/series/"
+                },
+                {
                     "clsName": "Ext.chart.series.Column",
                     "name": "Column.js",
-                    "path": "../../../src/chart/series/"
-                },
-                {
-                    "clsName": "Ext.chart.series.Gauge",
-                    "name": "Gauge.js",
-                    "path": "../../../src/chart/series/"
-                },
-                {
-                    "clsName": "Ext.chart.series.Line",
-                    "name": "Line.js",
                     "path": "../../../src/chart/series/"
                 },
                 {
@@ -1767,6 +1757,16 @@
                 {
                     "clsName": "Ext.chart.series.Scatter",
                     "name": "Scatter.js",
+                    "path": "../../../src/chart/series/"
+                },
+                {
+                    "clsName": "Ext.chart.series.Gauge",
+                    "name": "Gauge.js",
+                    "path": "../../../src/chart/series/"
+                },
+                {
+                    "clsName": "Ext.chart.series.Line",
+                    "name": "Line.js",
                     "path": "../../../src/chart/series/"
                 },
                 {
@@ -1945,13 +1945,13 @@
                     "path": "app/controller/"
                 },
                 {
-                    "clsName": "Portal.view.Portlet",
-                    "name": "Portlet.js",
+                    "clsName": "Portal.view.DropZone",
+                    "name": "DropZone.js",
                     "path": "app/view/"
                 },
                 {
-                    "clsName": "Portal.view.DropZone",
-                    "name": "DropZone.js",
+                    "clsName": "Portal.view.Portlet",
+                    "name": "Portlet.js",
                     "path": "app/view/"
                 },
                 {
