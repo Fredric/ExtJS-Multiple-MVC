@@ -1,8 +1,10 @@
 ExtJS-Multiple-MVC.
 
-The included code is ment to be cloned into the examples folder of ExtJS. 
+Just clone or fetch. The CDN version of ExtJS is used, so you should not have to alter the paths.
 
-!! Dont create a subfolder. Just be in the examples folder and clone from there !!
+Use index.html for the built version.
+
+Use dev.html for using Ext.Loader.
 
 The files that you need to copy to make your own application multi mvc is:
 
