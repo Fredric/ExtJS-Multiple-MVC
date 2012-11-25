@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Javascript" pattern="(file:Portal/app/controller//*||file:Portal//*||file:Portlets/Companies//*||file:Portlets/Company/*||file:Portlets/Company//*||file:Portlets/Stocks//*)&amp;&amp;!file:Portal/all-classes.js&amp;&amp;!file:Portal/app-all.js" />
+</component>
