@@ -1,6 +1,6 @@
 ExtJS-Multiple-MVC.
 
-Just clone or fetch. The CDN version of ExtJS is used, so you should not have to alter the paths.
+Just clone or fetch. You need ExtJS-4.1.3 to run the built version. Use dev.html for all other versions.
 
 Use index.html for the built version.
 
