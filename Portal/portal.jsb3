@@ -1930,13 +1930,13 @@
                     "path": "../../ext/extjs-4.1.0/src/grid/plugin/"
                 },
                 {
-                    "clsName": "Portal.controller.Main",
-                    "name": "Main.js",
+                    "clsName": "Portal.controller.MVCLoader",
+                    "name": "MVCLoader.js",
                     "path": "app/controller/"
                 },
                 {
-                    "clsName": "Portal.controller.MVCLoader",
-                    "name": "MVCLoader.js",
+                    "clsName": "Portal.controller.Main",
+                    "name": "Main.js",
                     "path": "app/controller/"
                 },
                 {
@@ -1945,13 +1945,13 @@
                     "path": "app/controller/"
                 },
                 {
-                    "clsName": "Portal.view.Portlet",
-                    "name": "Portlet.js",
+                    "clsName": "Portal.view.DropZone",
+                    "name": "DropZone.js",
                     "path": "app/view/"
                 },
                 {
-                    "clsName": "Portal.view.DropZone",
-                    "name": "DropZone.js",
+                    "clsName": "Portal.view.Portlet",
+                    "name": "Portlet.js",
                     "path": "app/view/"
                 },
                 {
