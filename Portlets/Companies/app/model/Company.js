@@ -6,4 +6,4 @@ Ext.define('Companies.model.Company', {
         {name:'pctChange', type:'float'}
     ]
 
-})
+});
