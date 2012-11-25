@@ -50,7 +50,7 @@ Ext.define('Portal.view.DropZone', {
         if (!this.lastCW) {
             // set initial client width
             this.lastCW = cw;
-        } else if (this.lastCW != cw) {
+        } else if (this.lastCW !== cw) {
             // client width has changed, so refresh layout & grid calcs
             this.lastCW = cw;
             //portal.doLayout();
