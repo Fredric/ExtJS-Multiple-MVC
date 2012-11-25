@@ -11,7 +11,7 @@
     <option undef="true" />
     <option browser="true" />
     <option maxerr="50" />
-    <option predef="Ext" />
+    <option predef="Ext, Portal" />
   </component>
 </project>
 
