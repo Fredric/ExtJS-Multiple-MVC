@@ -3,7 +3,7 @@ Ext.define('Companies.model.Company', {
     fields:[
         {name:'company'},
         {name:'change', type:'float'},
-        {name:'pctChange', type:'float'},
+        {name:'pctChange', type:'float'}
     ]
 
 });
