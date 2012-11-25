@@ -52,9 +52,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f29e36f8-23b2-4f07-b1e5-08a1dee468be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/JS_Inspection.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/JS_Inspection.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/Javascript.xml" afterPath="$PROJECT_DIR$/.idea/scopes/Javascript.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExtJS-Multiple-MVC.iws" />
@@ -208,6 +207,9 @@
             <id>Assignment issuesJavaScript</id>
           </State>
           <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
             <id>Data flow issuesJavaScript</id>
           </State>
           <State>
@@ -215,6 +217,9 @@
           </State>
           <State>
             <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JSHint</id>
           </State>
           <State>
             <id>JavaScript</id>
@@ -225,7 +230,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Code quality toolsJavaScript</id>
+            <id>JSHint</id>
           </State>
         </selected-state>
       </profile-state>
@@ -311,7 +316,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSHint" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -438,7 +443,11 @@
       <created>1353849717457</created>
       <updated>1353849717457</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Team City Code inspection test">
+      <created>1353850131336</created>
+      <updated>1353850131336</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
