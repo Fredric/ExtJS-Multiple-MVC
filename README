@@ -17,7 +17,7 @@ Use MVCLoader as a controller in your main app. You want to change the class nam
 
 Tell loader where your sub applications are. Look in Portal/app.js for guidance.
 
-/Fredric Berling
+
 
 @FredricBerling
 
