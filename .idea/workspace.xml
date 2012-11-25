@@ -53,8 +53,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f29e36f8-23b2-4f07-b1e5-08a1dee468be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portal/MVCHelper.js" afterPath="$PROJECT_DIR$/Portal/MVCHelper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portal/dev.html" afterPath="$PROJECT_DIR$/Portal/dev.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portal/portal.jsb3" afterPath="$PROJECT_DIR$/Portal/portal.jsb3" />
     </list>
     <ignored path="ExtJS-Multiple-MVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,10 +92,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dev.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dev.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Portal/dev.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="61" selection-start="753" selection-end="753" vertical-scroll-proportion="-7.5">
+            <state line="15" column="26" selection-start="663" selection-end="663" vertical-scroll-proportion="0.31343284">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portlets/Companies/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,16 +113,48 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portal/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+            <state line="2" column="55" selection-start="137" selection-end="173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Viewport.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Viewport.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portal/app/view/Viewport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="183" selection-end="183" vertical-scroll-proportion="0.27559054">
+            <state line="7" column="12" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grid.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portlets/Companies/app/view/Grid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1353757443000" expanded="false" signature="1695:1707" placeholder="..." />
+                <marker date="1353757443000" expanded="false" signature="1793:1803" placeholder="..." />
+                <marker date="1353757443000" expanded="false" signature="2042:2054" placeholder="..." />
+                <marker date="1353757443000" expanded="false" signature="2141:2151" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MVCHelper.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portal/MVCHelper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MVCLoader.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portal/app/controller/MVCLoader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="5" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,12 +186,13 @@
         <option value="$PROJECT_DIR$/Portlets/Companies/index.html" />
         <option value="$PROJECT_DIR$/Portal/app.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Portal/MVCHelper.js" />
         <option value="$PROJECT_DIR$/Portal/app/view/Columns.js" />
         <option value="$PROJECT_DIR$/Portal/app/view/DropZone.js" />
         <option value="$PROJECT_DIR$/Portlets/Companies/app/model/Company.js" />
-        <option value="$PROJECT_DIR$/Portal/dev.html" />
         <option value="$PROJECT_DIR$/Portal/app/view/Viewport.js" />
+        <option value="$PROJECT_DIR$/Portal/app/controller/MVCLoader.js" />
+        <option value="$PROJECT_DIR$/Portal/MVCHelper.js" />
+        <option value="$PROJECT_DIR$/Portal/dev.html" />
       </list>
     </option>
   </component>
@@ -289,7 +331,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Portal" />
+              <option name="myItemId" value="Portlets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Companies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,7 +349,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Portal" />
+              <option name="myItemId" value="Portlets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Companies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -325,7 +375,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Portal" />
+              <option name="myItemId" value="Portlets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Companies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -343,7 +397,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Portal" />
+              <option name="myItemId" value="Portlets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Companies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -352,6 +410,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJS-Multiple-MVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJS-Multiple-MVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,13 +597,22 @@
       <created>1353853540503</created>
       <updated>1353853540503</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Team City Code inspection test">
+      <created>1353879644906</created>
+      <updated>1353879644906</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix for Ext 4.1.3">
+      <created>1353881350846</created>
+      <updated>1353881350846</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="67" width="1280" height="729" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -547,7 +628,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6447368" sideWeight="0.7252836" order="5" side_tool="false" content_ui="tabs" />
@@ -588,7 +668,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Team City Code inspection test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix for Ext 4.1.3" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -605,26 +685,12 @@
     <MESSAGE value="Testing Continues integration server" />
     <MESSAGE value="Linting" />
     <MESSAGE value="Team City Code inspection test" />
+    <MESSAGE value="Fix for Ext 4.1.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Portal/portal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Portlets/Stocks/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Portlets/Companies/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="4" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" />
@@ -652,11 +718,6 @@
         <state line="1" column="10" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portal/MVCHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="47" selection-start="196" selection-end="196" vertical-scroll-proportion="0.11780105" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Portal/app/view/Columns.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="23" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0" />
@@ -681,23 +742,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portal/dev.html">
+    <entry file="file://$PROJECT_DIR$/Portal/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="61" selection-start="753" selection-end="753" vertical-scroll-proportion="-7.5">
+        <state line="2" column="55" selection-start="137" selection-end="173" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portal/app.js">
+    <entry file="file://$PROJECT_DIR$/Portlets/Companies/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Portal/app/view/Viewport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="183" selection-end="183" vertical-scroll-proportion="0.27559054">
+        <state line="7" column="12" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portlets/Companies/app/view/Grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1353757443000" expanded="false" signature="1695:1707" placeholder="..." />
+            <marker date="1353757443000" expanded="false" signature="1793:1803" placeholder="..." />
+            <marker date="1353757443000" expanded="false" signature="2042:2054" placeholder="..." />
+            <marker date="1353757443000" expanded="false" signature="2141:2151" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portal/app/controller/MVCLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portal/MVCHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portal/dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="663" selection-end="663" vertical-scroll-proportion="0.31343284">
           <folding />
         </state>
       </provider>
