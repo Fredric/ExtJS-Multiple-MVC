@@ -1,3 +1,4 @@
+//noinspection FunctionWithInconsistentReturnsJS,FunctionWithInconsistentReturnsJS
 /**
  * @class Portal.view.DropZone
  * @extends Ext.dd.DropTarget
