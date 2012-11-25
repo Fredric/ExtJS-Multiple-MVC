@@ -52,7 +52,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f29e36f8-23b2-4f07-b1e5-08a1dee468be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/JS_Inspection.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/JS_Inspection.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/Javascript.xml" afterPath="$PROJECT_DIR$/.idea/scopes/Javascript.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExtJS-Multiple-MVC.iws" />
@@ -206,12 +208,6 @@
             <id>Assignment issuesJavaScript</id>
           </State>
           <State>
-            <id>Code quality toolsJavaScript</id>
-          </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
             <id>Data flow issuesJavaScript</id>
           </State>
           <State>
@@ -221,24 +217,15 @@
             <id>GeneralJavaScript</id>
           </State>
           <State>
-            <id>JSHint</id>
-          </State>
-          <State>
-            <id>JSLint</id>
-          </State>
-          <State>
             <id>JavaScript</id>
           </State>
           <State>
             <id>JsTestDriverJavaScript</id>
           </State>
-          <State>
-            <id>UnterminatedStatementJS</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>JSHint</id>
+            <id>Code quality toolsJavaScript</id>
           </State>
         </selected-state>
       </profile-state>
@@ -447,7 +434,11 @@
       <created>1353849461302</created>
       <updated>1353849461302</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Team City Code inspection test">
+      <created>1353849717457</created>
+      <updated>1353849717457</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -565,7 +556,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Portlets/Companies/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" />
+        <state line="6" column="4" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Portal/portal.jsb3">
